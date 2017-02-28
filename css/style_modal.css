@@ -1,0 +1,91 @@
+ *{margin:0; padding:0; box-sizing:border-box;}
+
+            body{background:#099;}
+            .Modal{width:100%;height:100%;color:black;position:fixed;background-image:url(../img/Fundo.png);top:0;left:0;display:none;}
+            .right{float:right;}
+            .botao{ margin-left:5px;padding:6px 8px; background:linear-gradient(to bottom, #069, #09f 130%); border:1px solid white; font:16px tahoma, arial; color:white; border-radius:5px; float:left;}
+.foto{
+    float:left;
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    border-radius:20%;
+    margin-left:20px;
+    margin-right:10px;
+}
+.foto img{width:100%; height:100%;}
+
+            .formulario{
+                position:absolute; 
+                top:50%; 
+                left:50%; 
+                width:550px; 
+                height:250px; 
+                background:#093;        
+                border-radius:0 0 50% 50%;
+                margin-left:-250;
+                margin-top:40%;
+                padding:10px;
+                box-shadow:#ccc 2px 1px 20px;
+            }
+            .formu{
+                width:700px; 
+                height:400px; 
+                background:white;
+                border-radius:6px;
+                 margin-left: -250px;
+                margin-top:-400px;
+                color: black;
+            }
+            .formulario2{
+                position:absolute; 
+                top:50%; 
+                left:50%; 
+                width:700px; 
+                height:400px; 
+                background:white;
+                border-radius:6px;
+                 margin-left: -250px;
+                margin-top:-400px;
+                padding:10px;
+                box-shadow:#ccc 2px 1px 20px;
+            }
+            .formulario2 h2{
+                color: black;
+                text-align:center;
+                }
+            h1{
+                float:left; 
+                width:100%; 
+                margin-bottom:10px; 
+                font:24px "Trebuchet MS", tahoma, arial; 
+                font-weight:bold;
+                color:#069;
+                padding:5px;
+                text-align:center;
+            }
+            .formulario label{
+                float:left;
+                width:100%;
+            }
+            .formulario label span{
+                float:left;
+                width:100%;
+                font:15px Tahoma, arial;
+                color:black;
+                margin-bottom:20px;
+            }
+            .formulario label input{
+                float:left;
+                width:85%;
+                padding:6px;
+                background:white;
+                border-radius:5px;
+                border:1px solid #999;
+                outline:none;
+                margin-bottom:10px;
+                margin-left:5%;
+            }
+            
+        .botao1 {margin-left:30px;padding:6px 8px; background:linear-gradient(to bottom, #069, #09f 130%); border:1px solid white; font:16px tahoma, arial; color:white; border-radius:5px; float:left;}
+   label{color: black;}
