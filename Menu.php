@@ -7,8 +7,6 @@ include_once './Classes/Conexao.php';
 $pdo = conexao::Chamar_conexao();
 $pegar_user = $pdo->prepare("SELECT * FROM tbl_acesso_menu WHERE Cod_Utilizador='$cod'");
 $pegar_user->execute();
-
-
 ?>
 <div class="sidebar-scroll">
     <div id="sidebar" class="nav-collapse collapse">
